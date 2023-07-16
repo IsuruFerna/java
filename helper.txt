@@ -1,0 +1,19 @@
+$ tar xzf *.tar.gz
+
+$ export JAVA_HOME=/home/javauser/jdk/jdk-19
+
+$ echo $JAVA_HOME
+
+/home/javauser/jdk/jdk-19
+
+$ export PATH=$JAVA_HOME/bin:$PATH
+
+$ which java
+
+/home/javauser/jdk/jdk-19/bin/java
+
+source ~/.bashrc
+
+javac Animal.java
+
+
